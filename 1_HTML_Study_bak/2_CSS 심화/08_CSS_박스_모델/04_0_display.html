@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Inline vs. Inline-block</title>
+    <style>
+    .inline {
+        /*
+    inline속성은 문장 내에서 다른 인라인 요소와 같은 라인에 위치하며,
+    요소의 너비와 높이는 내부 콘텐츠의 크기에 따라 결정됩니다.
+    inline 요소에는 width, height, margin-top, margin-bottom, padding-top, padding-bottom
+    속성이 적용되지 않습니다.
+    정의해도 무시됨
+    */
+        /* display: HTML 태그가 갖는 고유 display 속성을 변경할 수 있다. */
+        display: inline;
+        border: 1px solid red;
+        padding: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    /*
+inline-block은 다른 인라인 요소와 같은 라인에 위치한다.
+그런데 block 속성처럼 박스 모델이 가지는 고유의 크기를 가질 수 있다.
+*/
+    .inline-block{
+        display: inline-block;
+        border: 1px solid blue;
+        padding: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    /*
+요소 마다 새로운 라인을 차지하고 박스 모델이 가지는 고유의 크기를 갖는다.
+*/
+    .block{
+        display: block;
+        border: 1px solid green;
+        padding: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    </style>
+
+</head>
+<body>
+<div class="inline">inline</div>
+<div class="inline">inline</div>
+<div class="inline-block">inline-block</div>
+<div class="inline-block">inline-block</div>
+<div class="block">block</div>
+<div class="block">block</div>
+</body>
+</html>

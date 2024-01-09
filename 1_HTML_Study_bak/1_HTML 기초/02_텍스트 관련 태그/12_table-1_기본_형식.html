@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>표만들기</title>
+    <!--
+	style: html의 UI에 다양한 효과를 내는 CSS를 지원하는 태그 정도로만
+	이해하고 추후 자세히 학습할 예정
+	전체 CSS 태그 및 속성은 아래 사이트 참조
+	https://developer.mozilla.org/ko/docs/Web/CSS
+
+	// : CSS에서 1줄 주석: 사용하지 말자.
+	/* */ : CSS에서 2줄이상의 주석
+-->
+    <style>
+        /*
+     * 주의 사항: 절대로 <style> 태그 안에 html 주석을 넣지 않는다. <!-- -->
+     [태그1], ... ,[태그n]{
+         [속성]:값1 값2 ...
+     }
+     태그에 적용된 속성값이 html 문서에 적용
+      */
+        table, th, td{
+        /*
+        1픽셀짜리 표 solid 스타일 테두리를 회색으로 표시*/
+            border: 1px solid #ccc;
+                    }
+        td{
+            padding: 5px;
+        }
+        </style>
+</head>
+<body>
+<table>
+    <caption>행렬 개념</caption>
+    <tr>
+        <td>1행 1열</td>
+        <td>1행 2열</td>
+        <td>1행 3열</td>
+    </tr>
+    <tr>
+        <td>2행 1열</td>
+        <td>2행 2열</td>
+        <td>2행 3열</td>
+    </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>선형 그라데이션</title>
+    <style>
+        div{
+            width: 500px;
+            height: 300px;
+        }
+        .grad{
+            /*동일한 속성에 대해서 여러번 정의 한다면 마지막에 정의한 속성으로 Overwrite 된다.*/
+            /*아래방향으로 그라데이션, 파란색, 30%지점에서 화이트 , 파란색*/
+            background: linear-gradient(to bottom, #06f, white 30%, #06f);
+        }
+    </style>
+
+</head>
+<body>
+<div class="grad"></div>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>원형 그라데이션</title>
+    <style>
+        div{
+            width: 500px;
+            height: 300px;
+            margin: 10px;
+        }
+        .grad1{
+        /*    첫번째 색상 : 그라데이션 중심, 두번째 색상 지정된 색상으로 색상이 변화*/
+            background: radial-gradient(white, yellow, red);
+        }
+        .grad2{
+        /*    첫번째 인자에 circle로 명시한 경우 배경중심점에서 원으로 그라데이션*/
+            background: radial-gradient(circle, white, yellow, red);
+        }
+    </style>
+</head>
+<body>
+<div class="grad1"></div>
+<div class="grad2"></div>
+
+</body>
+</html>

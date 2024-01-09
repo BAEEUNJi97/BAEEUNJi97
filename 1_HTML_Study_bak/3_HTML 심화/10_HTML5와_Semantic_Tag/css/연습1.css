@@ -1,0 +1,63 @@
+body{
+    font-family:"맑은 고딕", "고딕", "굴림";
+}
+header{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: 0;
+    background-image: url("../images/sky.jpg");
+    padding: 10px;
+    overflow: hidden;
+}
+header h1{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+    font-variant: small-caps ;
+}
+header h3 {
+    width: 100%;
+    text-align: center;
+    color: azure;
+}
+nav {
+    width: 1000px;
+    height: 70px;
+    margin: 0;
+    background-size: 100%;
+    background-color: #FFEBFE;
+    text-align: left;
+}
+/*nav ul{*/
+/*    list-style-type: none;*/
+/*}*/
+nav ul li{
+    display: inline-block;
+    float: left;
+    margin : 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+section{
+    clear: both;
+    float: left;
+    margin: 0 auto;
+    width: 650px;
+    height: auto;
+    padding: 10px;
+    background-color: azure;
+    overflow: hidden;
+}
+aside {
+    /*clear: both;*/
+    margin: 0 auto ;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    background-color: #FFB2D9;
+}
+.banner img{
+    width: 100px;
+    height: 100px;
+}

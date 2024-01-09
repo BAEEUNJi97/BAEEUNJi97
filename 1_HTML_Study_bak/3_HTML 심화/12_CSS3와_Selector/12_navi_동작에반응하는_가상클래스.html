@@ -1,0 +1,63 @@
+<!--사용자 동작에 반응하는 가상클래스
+1. :link 방문하지 않은 링크에 스타일적용
+2. :visited 방문한 링크에 스타일 적용
+3. :hover 웹 요소에 마우스 커서르 올려놓을 때으 ㅣ스탕리 적용
+4. :active 웹 요소를 활성화(누르고 있을때) 스타일 적용
+5. :focus 웹요소에 초점에 맞추어져있을때 스타일적용(키보드 탭키이용하면 확인쉬움)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    .container {
+    width: 750px;
+    margin : 0 auto;
+    }
+    .navi{
+    width:750px;
+    height:60px;
+    padding-bottom:10px;
+    border-bottom:2px solid #ccc;
+    }
+    .navi ul{
+    list-style: none;
+    padding-top:10px;
+    padding-bottom:5px;
+    }
+
+    .navi ul li {
+        display: inline-block;
+        width: 150px;
+        padding: 10px;
+    }
+
+    .navi a:link, navi a:visited{
+    font-size: 14px;
+    padding : 10px;
+        text-decoration: none /*밑줄없음*/;
+    }
+    .navi a:hover, .navi a:focus{
+        background-color: #222;
+        color: #fff;
+    }
+    .navi a:active{
+        background-color: #f00;
+    }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <nav class="navi">
+        <ul>
+            <li><a href="#">이용 안내</a></li>
+            <li><a href="#">객실 소개</a></li>
+            <li><a href="#">예약 방법 및 요금</a></li>
+            <li><a href="#">예약하기</a></li>
+        </ul>
+    </nav>
+</div>
+</body>
+</html>

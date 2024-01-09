@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>박스모델</title>
+    <style>
+        div{
+            width: 200px;
+            height: 100px;
+            background: #0094ff;
+        }
+    /*  4개지정(시계방향순) : 위- 오른쪽 - 아래 - 왼쪽*/
+        .box1{margin: 30px 50px 40px 60px;}
+    /*   2개지정 : 위아래 - 왼쪽오른쪽*/
+        .box2{margin: 30px 50px;}
+    /*    1개지정 : 모든방향*/
+        .box3{margin: 50px;}
+    /*    3개지정 : 위-오른쪽-아래-왼쪽(오른쪽값 사용)*/
+        .box4{margin: 30px 5px 10px}
+    </style>
+</head>
+<body>
+<div class="box1"></div>
+<div class="box2"> </div>
+<div class="box3"></div>
+<div class="box4"></div>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!--ui 요소 상태에 따른 가상 클래스
+가상클래스 : 특정 조건에 부합하는 요소에 스타일을 적용하기 위해 CSS 내부에 정의된 규칙
+1. :enabled, :disabled 요소를 사용할 수있을때와 없을때 스타일 지정
+2. :ckecked 라디오박스나 체크박스에서 해당 항목을 선택 했을때 스타일 지정-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>가상클래스</title>
+    <style>
+        body {
+            background-color:#fff;
+        }
+        form fieldset{
+            margin-bottom:25px;
+        }
+        form legend{
+            font-size:15px;
+            font-weight:600;
+        }
+        input:disabled{
+            background: #ddd;
+            border: 1px #ccc solid;
+        }
+    /*    input 이 checked 되었을때 그다음 첫번째로 오는 span(+span)에 스타일 적용*/
+        input:checked + span{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>사용자 정보</legend>
+        <label>이름 <input type="text" disabled></label>
+    </fieldset>
+    <fieldset>
+        <legend>신청 과목</legend>
+        <p>이 달에 신청할 과목을 선택하세요</p>
+        <label><input type="radio" name="subject" value="speaking"><span>회화</span></label>
+        <label><input type="radio" name="subject" value="grammar"><span>문법</span></label>
+        <label><input type="radio" name="subject" value="writing"><span>작문</span></label>
+    </fieldset>
+</form>
+
+</body>
+</html>

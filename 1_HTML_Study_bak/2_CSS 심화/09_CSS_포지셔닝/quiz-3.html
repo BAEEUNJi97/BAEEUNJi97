@@ -1,0 +1,115 @@
+<!--
+조건
+- 블로그명의 영어 이름을 여러분의 이름으로 바꿔보세요.
+- 전체 레이아웃을 최소한 header, nav, section, article, footer가 들어가도록
+- 설계하고 해당 이름이 id로 들어가도록 스타일을 설계하세요.
+ 예) #header, #nav, #section, #article, #footer
+ header: HK Lee의 HTML 블로그
+ nav: 홈 HTML CSS JavaScript
+ section: 본문 전체 (article을 포함하고 있는 가장 상위 레이아웃)
+ article: HTML 기초, CSS 스타일링, JavaScript 프로그래밍글을 각각 적용할 수 있는 레이아웃
+ footer: © 2024 HK Lee (이현구) HTML 블로그 판권 소유.
+ - footer에 여러분의 이름을 사용하세요.
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 블로그</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+        }
+    /*
+    아래에 여러분의 스타일을 정의하세요.
+    */
+        section div{
+            padding: 20px;
+            width: 1200px;
+            margin: 20px auto;
+            border: 1px solid #DCDCDC ;
+            text-align: left;
+            background-color: white;
+            ;
+        }
+
+       #header{
+            background-size: 100%;
+            background-color: #4C4C4C;
+            text-align: center;
+            color: white;
+           }
+       h1{
+           margin: 0;
+           padding: 20px;
+       }
+       nav{
+           display: block;
+           background-size: 100%;
+           background-color: #707070;
+           text-align: center;
+           /*margin-top: 0;*/
+       }
+       ul{
+           margin: 0;
+           padding: 10px;
+       }
+        li{
+            display: inline;
+            color: blue;
+            text-decoration: underline;
+            margin: 10px;
+        }
+        footer{
+            background-size: 100%;
+            background-color:#3A3A3A ;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <h1>YB Kang의 HTML 블로그</h1>
+</div>
+    <nav>
+        <ul>
+            <li>홈</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </nav>
+    <section>
+            <div class="article>">
+            <h2>HTML 기초</h2>
+            <p>HTML은 웹 페이지의 구조를 정의하는 마크업 언어입니다. 이 글에서는 HTML의 기초에 대해 알아보겠습니다.</p>
+            <a href="#">더 읽기</a>
+            </div>
+
+            <div class="article>">
+            <h2>CSS 스타일링</h2>
+            <p>CSS는 웹 페이지의 스타일링을 정의하는 스타일 시트 언어입니다. 이글에서는 CSS를 사용하는 웹페이지 스타일링에 대해 알아보겠습니다.</p>
+            <a href="#">더 읽기</a>
+            </div>
+
+            <div class="article>">
+            <h2>JavaScript 프로그래밍</h2>
+            <p>JavaScript는 웹 페이지를 동적으로 만들고 사용자와 상호작용하는 데 사용되는 프로그래밍 언어입니다. 이글에서는 JavaScript 프로그래밍의 기초를 소개합니다.</p>
+            <a href="#">더 읽기</a>
+            </div>
+    </section>
+            <footer>
+                <p>2024 YB Kang(강연배) HTML 블로그 판권 소유.</p>
+            </footer>
+
+
+</div>
+
+
+</body>
+</html>

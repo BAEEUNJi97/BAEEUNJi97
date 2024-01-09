@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>속성 선택자</title>
+    <style>
+        ul{
+            list-style: square;
+        }
+        li a {
+            line-height:30px;
+            font-size: 14px;
+            color: blue;
+            text-decoration: none;
+        }
+        /* [속성$=값] 선택자 : 특정값으로 끝나는 속성에 스타일 적용*/
+        a[href $="hwp"] {
+            background: url("images/hwp_icon.gif") center right no-repeat;
+            padding-right: 25px;
+        }
+        a[href $="xls"] { /*연결한 파일의 확장자가 hwp인 링크*/
+            background: url("images/excel_icon.gif") center right no-repeat;
+            padding-right: 25px;
+        }
+</style>
+</head>
+<body>
+<h3>회사 소개 파일 다운받기</h3>
+<ul></ul>
+<li><a href="intro.hwp">hwp 파일</a> </li>
+<li><a href="into.xls">엑셀파일</a> </li>
+</body>
+</html>

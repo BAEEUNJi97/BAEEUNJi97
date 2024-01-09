@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>온라인 프로필</title>
+    <!--    css를 HTML파일 style태그 안에 적용하는 방식을 internal 방식이라고한다-->
+    <style>
+        section{
+            width: 500px;
+            padding: 15px;
+            border: 5px solid blue;
+        }
+    </style>
+<!--    스타일을 외부 css에 정의 하는 것을 External 방식이라고 한다.
+장점 : 공통 스타일에 대해서 재사용, 유지보수가 용이하다.-->
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+<div id="container">
+    <!-- section : HTML5에서 지원하는 시멘틱 태그로서 문서의 컨텐츠를 그룹화 하는데 사용-->
+    <section>
+        <h2>Who am I?</h2>
+        <p>프런트앤드 웹 기술(Front-end Wdb Tech.)에 관심이 많습니다.<br>
+            현재 제주의 한 시골 마을에서 코딩중 입니다.</p>
+    </section>
+</div>
+</body>
+</html>

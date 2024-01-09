@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>웹 폼</title>
+    <style>
+        label{
+            font-size: 14px;
+            line-height: 25px;
+        }
+        label em{
+            color: red;
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+<from>
+    <fieldset>
+<!-- for속성에 input 태그의 id를 지정하면 화면상의 마우스 클릭시 해당 input 요소로
+이동하게 해준다.-->
+        <label for="user_id">아이디 :<input type="text" id="user_id" size="10"></label>
+        <label for="user_pw">비밀번호 :<input type="password" id="user_pw" size="10"></label>
+        <input type="submit" value="로그인">
+    </fieldset>
+</from>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>label 태그 사용</title>
+    <style>
+        ul {
+            list-style:none;
+        }
+        li {
+            margin:20px;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <h3>수강  부야(다수선택가능)</h3>
+    <ul>
+<!-- 멀티셀렉인경우 체크박스사용-->
+        <li><input type="checkbox" value="grm">문법</li>
+        <li><input type="checkbox" value="wr">작문</li>
+        <li><input type="checkbox" value="rd">독해</li>
+    </ul>
+    <h3>수강과목(1과목만 선택가능)</h3>
+    <ul>
+<!-- radio 박스는 여러개중 1가지를 고를때 이용
+같은 name 으로 되어져있는 radio박스 구룹에서 하나만 선택-->
+        <li><input type="radio" name="subject" value="eng">영어회화</li>
+        <li><input type="radio" name="subject" value="ch">중국어회화</li>
+        <li><input type="radio" name="subject" value="jp">일어회화</li>
+    </ul>
+</form>
+
+</body>
+</html>

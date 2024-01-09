@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>웹 폰트 사용하기</title>
+<style>
+    /*
+    @(at-rule):css에서 특정 기능을 사용하기 위한 명령어
+     */
+    @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+    /* 구글 웹 폰트 */
+    .ng-font {/*웹폰트 지정(css3 기능), 'Nanum Gobthic' 글꼴을 적용하고 없다면 '돋움'글꼴로 대체*/
+        font-family: 'Nanum Gothic';
+    }
+    p{
+        font-size: 30px;
+    }
+</style>
+</head>
+<body>
+<p>브라우저 기본 글꼴 사용</p>
+<p class="ng-font">나눔고딕 웹 폰트 사용</p>
+
+</body>
+</html>
