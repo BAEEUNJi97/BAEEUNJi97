@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Park Ticket System</title>
+</head>
+<body>
+
+<script>
+    function calculateAndDisplayTicketPrice() {
+        var age = parseInt(prompt("나이를 입력하세요:"));
+        var grade, price;
+
+        if (age >= 0 && age <= 3) {
+            grade = "유아";
+            price = 0;
+        } else if (age >= 4 && age <= 13) {
+            grade = "어린이";
+            price = 2000;
+        } else if (age >= 14 && age <= 18) {
+            grade = "청소년";
+            price = 3000;
+        } else if (age >= 19 && age <= 65) {
+            grade = "성인";
+            price = 5000;
+        } else {
+            grade = "노인";
+            price = 0;
+        }
+
+        alert("귀하는 " + grade + " 등급이며 요금은 " + price + "원 입니다.");
+
+        var paymentMethod = parseInt(prompt("요금 유형을 선택하세요. (1: 현금, 2: 공원 전용 신용 카드):"));
+
+        if (paymentMethod === 1) {  // 현금 결제
+            var paymentAmount = parseInt(prompt("요금을 입력하세요:"));
+            if (paymentAmount < price) {
+                alert((price - paymentAmount) + "가 모자랍니다. 입력 하신 " + paymentAmount + "를 반환합니다.");
+            } else if (paymentAmount === price) {
+                alert("감사합니다. 티켓을 발행합니다.");
+            } else {
+                var change = paymentAmount - price;
+                alert("감사합니다. 티켓을 발행하고 거스름돈 " + change + "를 반환합니다.");
+            }
+        } else if (paymentMethod === 2) {  // 신용 카드 결제
+            var discountPercentage = 0.1;
+            if (age >= 60 && age <= 65) {
+                discountPercentage += 0.05;
+            }
+
+            var discountedPrice = parseInt(price - (price * discountPercentage));
+
+            alert(discountedPrice + "원 결제 되었습니다. 티켓을 발행합니다.");
+        } else {
+            alert("올바른 결제 유형을 선택해주세요.");
+        }
+    }
+
+    calculateAndDisplayTicketPrice();  // 페이지 로딩 시 프로그램 실행
+</script>
+
+</body>
+</html>

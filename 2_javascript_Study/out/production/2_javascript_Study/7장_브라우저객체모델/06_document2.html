@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset = "UTF-8">
+<title> 함수 </title>
+<style>
+	*{margin: 0;padding: 0;}
+	#galleryZone {text-align: center;}
+	#galleryZone input[type="image"]{margin:0 8px;}
+</style>
+<script>
+	var num = 1;
+	function gallery(direct) {
+		// 1: 다음의 조건으로 활용
+		// 0: if() 조건식에서 false 다음의 조건을 처리하는 용도로 활용
+		if(direct) {
+			// return 값이 없다는 것은 함수에서 빠져 나온다는 것을 의미
+			if(num == 8) return;
+			num++;
+		} else {
+			if(num == 1) return;
+			num--;
+		}
+
+		var imgTag = document.getElementById("photo");
+		// src 속성의 값을 변경
+		// setAttribute (속성, 변경할 값) : 해당 html 요소의 속성을 지정된 값으로 변경
+		imgTag.setAttribute("src","images/pic_" + num + ".jpg");
+	}
+</script>
+</head>
+<body>
+	<div id="galleryZone">
+		<p><img src="images/pic_1.jpg" id="photo" alt=""></p>
+		<p>
+			<button onclick="gallery(0)">이전</button>
+			<button onclick="gallery(1)">다음</button>
+		</p>
+	</div>
+</body>
+</html>

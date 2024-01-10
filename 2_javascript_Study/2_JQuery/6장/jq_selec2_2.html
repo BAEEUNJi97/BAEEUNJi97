@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title> 탐색 선택자 </title>
+<script src="js/jquery.js"></script>
+<script>
+	$(function(){
+		// 하위 요소 중 짝수 요소
+		$("#menu li:even") // 인덱스가 0부터 시작해서 첫번째가 짝수임
+		.css({"background-color":"#ff0"});
+
+		// 하위 요소 중 홀수 요소
+		$("#menu li:odd")
+		.css({"background-color":"#0ff"});
+	});
+</script>
+</head>
+<body>
+	<h1>탐색 선택자</h1>
+	<ul id="menu">
+		<li>내용1</li><!-- 0번째 인덱스-->
+		<li>내용2</li><!-- 1번째 인덱스-->
+		<li>내용3</li><!-- 2번째 인덱스-->
+		<li>내용4</li><!-- 3번째 인덱스-->
+	</ul>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title> do while문 </title>
+<script>
+    let userNumber;
+
+    do{
+        userNumber = parseFloat(prompt("양수를 입력하세요:"));
+
+        if(isNaN(userNumber)) || userNumber <=0){
+        alert("잘못된 입력입니다. 유효한 양수를 입력해주세요");
+        }
+    } while (isNaN(userNumber)) || userNumber <=0);
+    console.log("유효한 양수를 입력하셨습니다:", userNumber);
+    /*참고] while문으로 사용했을 경우 비교
+    모든 while문과 두 와이드문은 호환 가능하다. 개발자의 선택의 문제로 이해하세요.
+
+    while (true){
+    userNumber = parseFloat(prompt("양수를 입력하세여));
+
+    if(!isNaN(userNumber) && userNumber > 0{
+    break;;
+    } else {
+        alert(" 잘못된 입력입니다. 유효한 양수를 입력해주세요.");
+        }
+        {console.log("유효한 양수를 입력하셨습니다:" userNumber);
+     */
+
+</script>
+</head>
+<body>
+</body>
+</html>

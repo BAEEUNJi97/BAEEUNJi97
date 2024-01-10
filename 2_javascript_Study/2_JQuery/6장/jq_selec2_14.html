@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title> 탐색 선택자 </title>  
+<script src="js/jquery.js"></script>
+<script>
+	$(function(){
+		// find는 모든 하위 요소에 대한 검색
+		$("#inner_1").find(".txt1")
+		.css({"background-color":"#ff0"});
+
+		// filter 선택된 요소를 기준으로 필터링
+		// 선택된 요소를 기준이 되기 때문에 하위요소는 아래와 같이 지정해야한다.
+		$("#inner_1 p").filter(".txt2")
+		//$("#inner_1").filter(".txt2")
+		.css({"background-color":"#0ff"});
+
+	});
+</script>
+</head>
+<body>
+	<div id="outer_wrap">
+		<h1>콘텐츠 탐색 선택자</h1>
+		<section id="inner_1">
+			<h2>find( ), filter( )</h2>
+			<p class="txt1">내용1</p>
+			<p class="txt2">내용2</p>
+		</section>
+
+		<section id="inner_2">
+			<h2>filter(function)</h2>
+			<p>index 0</p>
+			<p>index 1</p>
+			<p>index 2</p>
+			<p>index 3</p>
+		</section>
+	</div>
+</body>
+</html>
