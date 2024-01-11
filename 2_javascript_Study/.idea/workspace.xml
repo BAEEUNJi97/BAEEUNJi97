@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b710da8-b6d6-4c6b-ab3d-85748988aeec" name="Changes" comment="핵힘듬" />
+    <list default="true" id="9b710da8-b6d6-4c6b-ab3d-85748988aeec" name="Changes" comment="핵힘듬">
+      <change afterPath="$PROJECT_DIR$/2_JQuery/6장/jq_selec3_4_test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JQuery/7장/jq_event2_7_test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JQuery/7장/코드조합.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JQuery/8장/js/8장.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JQuery/6장/jq_selec_last.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_JQuery/6장/jq_selec_last.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JQuery/6장/jq_selec_last_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_JQuery/6장/jq_selec_last_test.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -26,13 +41,16 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.jq_event1_7_test.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.jq_event1_8_test.html.executor&quot;: &quot;Debug&quot;,
     &quot;JavaScript Debug.jq_selec3_1.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.jq_selec3_4.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.jq_selec3_4.html.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/BEJ/Project/2_WepProject/1_FrontEnd/2_javascript_Study/2_JQuery/6장&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/BEJ/Project/2_WepProject/1_FrontEnd/2_javascript_Study/2_JQuery/7장&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -43,10 +61,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\BEJ\Project\2_WepProject\1_FrontEnd\2_javascript_Study\2_JQuery\7장" />
       <recent name="C:\BEJ\Project\2_WepProject\1_FrontEnd\2_javascript_Study\2_JQuery\6장" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\BEJ\Project\2_WepProject\1_FrontEnd\2_javascript_Study\2_JQuery\7장\js" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.jq_selec3_4.html">
+  <component name="RunManager" selected="JavaScript Debug.jq_event1_8_test.html">
+    <configuration name="jq_event1_7_test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2_javascript_Study/2_javascript_Study/2_JQuery/7장/jq_event1_7_test.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="jq_event1_8_test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2_javascript_Study/2_javascript_Study/2_JQuery/7장/jq_event1_8_test.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="jq_selec3_1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2_javascript_Study/2_javascript_Study/2_JQuery/6장/jq_selec3_1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -55,6 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.jq_event1_8_test.html" />
+        <item itemvalue="JavaScript Debug.jq_event1_7_test.html" />
         <item itemvalue="JavaScript Debug.jq_selec3_4.html" />
         <item itemvalue="JavaScript Debug.jq_selec3_1.html" />
       </list>
@@ -78,7 +108,10 @@
       <workItem from="1704854166262" duration="6000" />
       <workItem from="1704854256797" duration="20117000" />
       <workItem from="1704878928858" duration="2002000" />
-      <workItem from="1704880947790" duration="310000" />
+      <workItem from="1704880947790" duration="437000" />
+      <workItem from="1704934222139" duration="18953000" />
+      <workItem from="1704958906790" duration="6815000" />
+      <workItem from="1704969711681" duration="2355000" />
     </task>
     <task id="LOCAL-00001" summary="핵힘듬">
       <option name="closed" value="true" />
@@ -88,7 +121,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704880975150</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="핵힘듬">
+      <option name="closed" value="true" />
+      <created>1704881295606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704881295606</updated>
+    </task>
+    <task id="LOCAL-00003" summary="핵힘듬">
+      <option name="closed" value="true" />
+      <created>1704881345406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704881345406</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +154,11 @@
           <url>file://$PROJECT_DIR$/2_JQuery/6장/jq_selec2_13_test.html</url>
           <line>20</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/2_JQuery/7장/jq_event2_4.html</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

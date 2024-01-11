@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title> 이벤트 </title>  
+<script src="js/jquery.js"></script>
+<script>
+$(function( ) {
+	$(document).ready(function () {
+		console.log("Document Load");
+		var h1 = $(".img1").height();
+		console.log("ready :", h1);
+	});
+	$(window).on("load",function (){
+		console.log("Window Load");
+
+		var h2 = $(".img1").height();
+		console.log("ready :", h2);
+	})
+
+});
+</script>
+</head>
+<body>
+	<p>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/9/98/SydneyOperaHouse.jpg" class="img1">
+	</p>
+</body>
+</html>
