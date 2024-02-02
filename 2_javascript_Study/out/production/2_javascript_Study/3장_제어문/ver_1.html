@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>공원 요금 계산 프로그램_1</title>
+</head>
+<body>
+ <script>
+<!--     ver1  내가 푼것    -->
+     var age = parseInt(prompt("나이를 입력하세요"));
+     if(age>=0 && age<=3){
+      alert("요금은 무료입니다.");
+     }
+      else if(age>=4 && age<=14){
+         alert("요금은 2000원 입니다.");
+      }
+     else if(age>=14 && age<=18){
+         alert("요금은 3000원 입니다.");
+     }
+     else if(age>=19 && age<=65){
+         alert("요금은 5000원 입니다.");
+     }
+     else if(age>=66){
+         alert("요금은 무료입니다.");
+     }
+    // ver _2
+
+
+    var age = parseInt(prompt("나이를 입력하세요"));
+    if(age>=0 && age<=3){
+    fee = 0;
+    }
+    else if(age>=4 && age<=14){
+    fee = 2000;
+    }
+    else if(age>=14 && age<=18){
+    fee = 3000;
+    }
+    else if(age>=19 && age<=65){
+    fee = 5000;
+    }
+    else if(age>=66){
+    fee = 0;
+    }
+
+
+
+
+
+ </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ver_2</title>
+</head>
+<body>
+<script>
+    var age = parseInt(prompt("나이를 입력하세요"));
+
+    if(age>=0 && age<=3){
+        document.write("귀하는 유아 등급이며 요금은 무료입니다.");
+    }
+    else if(age>=4 && age<=14){
+        document.write("귀하는 어린이 등급이며 요금은 2000원 입니다.");
+    }
+    else if(age>=14 && age<=18){
+        document.write("귀하는 청소년 등급이며 요금은 3000원 입니다.");
+    }
+    else if(age>=19 && age<=65){
+        document.write("귀하는 성인 등급이며 요금은 5000원 입니다.");
+    }
+    else if(age>=66){
+        document.write("귀하는 노인 등급이며 요금은 무료입니다.");
+    }
+    else{document.write("다시 입력하세요")}
+</script>
+
+</body>
+</html>

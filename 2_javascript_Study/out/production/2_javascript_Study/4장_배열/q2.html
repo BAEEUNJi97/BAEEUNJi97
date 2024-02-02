@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>학생의 평균값</title>
+</head>
+<body>
+<script type="text/javascript">
+
+//<!--    학생이 몇명인가 정의   -->
+//
+//    const student_num =();
+//
+//    var scores= [];
+//
+//// p가 나오면 정지
+//    for (i=o; i<student_num; i++){
+//        var userInput = parent("학생"+(i+1)+"의 성적을 입력하세여 :");
+//
+//        var score = parseFloat(userInput);
+//    }
+//
+//
+//
+//
+//// 총점과 평균
+//    alert("총점:"+last+"<br>"+"평균:" + scores);
+//
+//
+//for (let i = 0; i < 10; i++) {
+//    characterStats[i] = 1;
+//    // characterStats.push(1);
+//}
+
+    for (index = 0; true; index++){
+        let userInput = prompt('학생'+ (index+1) + '의 성적을 입력하세요 (중지는 q):');
+    }
+
+        if (userInput === 'q') {
+            break;
+        }
+
+        let score = parseFloat(userInput);
+        score.push(score);
+
+        let total = 0;
+        for (let i = 0; i < scores.length; i++) {
+            total += scores[i];
+        }
+        let average = total / scores.length;
+        alert('총점: ' + total + '\n평균: ' + average);
+
+</script>
+</body>
+</html>
