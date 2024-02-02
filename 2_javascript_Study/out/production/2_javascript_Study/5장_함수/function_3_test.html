@@ -7,25 +7,54 @@
     /* 예제 코드의 실행화면을 보고 아래에 문제를 정의하고
     다시 문제를 풀어보세요.
      */
-    const RIGHT_ID = "korea";
-    const RIGHT_PW = "1234";
-    function login(id, pw){
-        if(id == RIGHT_ID){
-            if(pw == RIGHT_PW){
-                document.write(id + "님 방문을 환영합니다");
-            }else{
-                alert("잘못된 비밀번호입니다.");
-            }
+    // const RIGHT_ID = "korea";
+    // const RIGHT_PW = "1234";
+    // // 변하지 않는 값 id, pw
+    // function login(id, pw){
+    //     // 로그인을 하기 위해서는 두가지 정보값이 필요하다
+    //     if(id == RIGHT_ID){
+    //         if(pw == RIGHT_PW){
+    //             // id의 값, pw을 기입 두가지가 다 맞다면 true
+    //             // 환영문
+    //             document.write(id + "님 방문을 환영합니다");
+    //         }
+    //         else{
+    //             alert("존재하지 않는 아이디입니다..");
+    //         }
+    //     //맞지 않는 정보일때 빠져나와서 다음 정보로 출력된다
+    //
+    //     } else {
+    //         alert("잘못된 비밀번호 입니다.");
+    //     }
+    // }
+    //
+    // var userId = prompt("아이디를 입력하세요.", "");
+    // var userPw = prompt("패스워드를 입력하세요.", "");
+    //
+    // login(userId, userPw);
 
-        } else {
-            alert("존재하지 않는 아이디입니다.");
-        }
+    // 고객이 이름과 좋아하는 과일이 일치 할시 주문이 가능하게 만들기
+
+    const name_rt = "김철수"&&"배은지"&&"박수미";
+    const fruit_rt = "딸기"&&"바나나"&&"망고";
+    function order(name, fruit){
+        if( name == name_rt ){
+            if( fruit==fruit_rt) {
+                document.write(name + "님의 " + fruit + "는 주문이 가능합니다");
+            } else{
+                    alert("고객님의 과일이 아닙니다");
+                }
+        }else{
+                    alert("고객님의 성함이 다릅니다");
+                }
     }
 
-    var userId = prompt("아이디를 입력하세요.", "");
-    var userPw = prompt("패스워드를 입력하세요.", "");
+    var name_1 =prompt("고객님의 성함을 작성해주세요", "");
 
-    login(userId, userPw);
+    var fruit_1 =prompt("좋아하시는 과일 이름을 작성해주세요", "");
+
+    order(name_1,fruit_1);
+
 </script>
 </head>
 <body>

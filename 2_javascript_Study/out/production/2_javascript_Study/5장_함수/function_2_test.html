@@ -4,14 +4,36 @@
 	<meta charset = "UTF-8">
 	<title> 함수 </title>
 	<script>
-		function myFnc(name, area) {
-			document.write("안녕하세요. " + name + "가 제일 먹고싶은 과일입니다.", "<br>");
-			document.write("이 과일의 유명한 디저트는 " + area + "입니다.", "<br><br>");
-		}
+// <!--	- 입력은 promprt 출력은 alert를 활용하세요.	-->
+// <!--	- 고객의 성함과 좋아하는 음식을 출력할 수 있도록 함수를 넣어서 만들기.	-->
+// <!--		고객님의 성함과 좋아하는 음식의 이름을 넣어주세요-->
+/*
+ myfnc(이름 ,과일)
+ 값이 document에 들어가서 차례대로 알맞게 .
+ */
 
-		myFnc("포도", "포도즙");
+		// function myFnc(name, fruit) {
+		// 	let a = name;
+		// 	let b= fruits;
+		//
+		// 	a = [];
+		// 	b = [];
+		//
+		// 	var a =prompt("고객님의 성함은 무엇인가요?");
+		// 	var b =prompt("고객님이 좋아하시는 과일은 무엇인가요?");
+		//
+		// document.write(name+"님 좋아하시는"+fruit+"정말 맛있을 것 같습니다.");
+		// }
+		//
+		//
+		// myFnc();
+	 function myFnc(name, fruit) {
+		 document.write(name + "님 좋아하시는 " + fruit +" 정말 맛있을 것 같습니다.","<br>");
+	 }
+	  	myFnc("김철수","딸기");
+		myFnc("배은지","바나나");
 
-		myFnc("딸기", "쇼트케이크");
+
 		/* 예제 코드의 실행화면을 보고 아래에 문제를 정의하고
         다시 문제를 풀어보세요.
          */

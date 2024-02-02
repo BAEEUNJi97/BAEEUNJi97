@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<script>
+<script type="text/javascript">
     // // 성적을 저장할 배열
     // let scores = [];
     // let studentNum = 1;
@@ -22,26 +22,37 @@
     //     let score = parseFloat(userInput);
     //     scores.push(score);
 
-    }for (index = 0; true; index++){
-        let userInput = prompt('학생'+ (index+1) + '의 성적을 입력하세요 (중지는 q):');
+    let scores = [];
 
-        // 중지 조건 확인
+    for (let index= 0; true; index++) {
+        let userInput = prompt('학생' + (index + 1) + '의 성적을 입력하세요 (중지는 q):');
+
         if (userInput === 'q') {
             break;
         }
 
-        // 입력값을 숫자로 변환하여 배열에 추가
         let score = parseFloat(userInput);
         scores.push(score);
+        // 중지 조건 확인
+    }
+        // 입력값을 숫자로 변환하여 배열에 추가\
+    // let userInput = [];
+
+    // let score = parseFloat(userInput);
+    //     scores.push(score);
+    // 총점 계산
+
+    let score = 0;
+    for (let i = 0; i < scores.length; i++) {
+        score += scores[i];
     }
 
-    // 총점 계산
-    let total = 0;
-    for (let i = 0; i < scores.length; i++) {
-        total += scores[i];
-    }
-    let average = total / scores.length;
-    alert('총점: ' + total + '\n평균: ' + average);
+    let average = score / scores.length;
+    //  텍스트 상에서 줄바꿈 문자 \n
+    alert('총점: ' +score +'\n평균: '+average);
+    // document.write('총점: ' +score + '<br>평균: '+average);
+
+
 </script>
 
 </body>

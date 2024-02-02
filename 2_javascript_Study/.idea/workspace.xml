@@ -5,9 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b710da8-b6d6-4c6b-ab3d-85748988aeec" name="Changes" comment="01.11">
+      <change afterPath="$PROJECT_DIR$/../1_HTML_Study_bak/3_HTML 심화/10_HTML5와_Semantic_Tag/111.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1_HTML_Study_bak/3_HTML 심화/10_HTML5와_Semantic_Tag/css/styles5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1_HTML_Study_bak/3_HTML 심화/10_HTML5와_Semantic_Tag/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1_HTML_Study_bak/3_HTML 심화/10_HTML5와_Semantic_Tag/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1_HTML_Study_bak/3_HTML 심화/10_HTML5와_Semantic_Tag/style4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_FrontEnd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../1_FrontEnd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_HTML_Study_bak/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1_HTML_Study_bak/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3장_제어문/01_if_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3장_제어문/3장_제어문_연습문제정답/02_else_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_JavaScript/5장_함수/function_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_JavaScript/5장_함수/function_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2_javascript_Study/3장_제어문/05_while_1-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2_javascript_Study/3장_제어문/05_while_1-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2_javascript_Study/3장_제어문/06_do_while_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2_javascript_Study/3장_제어문/06_do_while_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2_javascript_Study/4장_배열/Quiz.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2_javascript_Study/4장_배열/Quiz.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2_javascript_Study/4장_배열/Sol2.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2_javascript_Study/4장_배열/Sol2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2_javascript_Study/5장_함수/function_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2_javascript_Study/5장_함수/function_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2_javascript_Study/5장_함수/function_2_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2_javascript_Study/5장_함수/function_2_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2_javascript_Study/5장_함수/function_3_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2_javascript_Study/5장_함수/function_3_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML_Study/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML_Study/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML_Study/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML_Study/HTML_Study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,27 +54,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.6_상위메뉴이동.html.executor": "Run",
-    "JavaScript Debug.jq_event1_7_test.html.executor": "Run",
-    "JavaScript Debug.jq_event1_8_test.html.executor": "Debug",
-    "JavaScript Debug.jq_selec3_1.html.executor": "Debug",
-    "JavaScript Debug.jq_selec3_4.html.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/BEJ/Project/2_WepProject/1_FrontEnd",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Q1_1.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.6_상위메뉴이동.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.jq_event1_7_test.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.jq_event1_8_test.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.jq_selec3_1.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.jq_selec3_4.html.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/BEJ/Project/2_WepProject/1_FrontEnd/1_HTML_Study_bak&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\BEJ\Project\2_WepProject\1_FrontEnd\2_javascript_Study\3_실전예제\차트" />
@@ -66,7 +86,20 @@
       <recent name="C:\BEJ\Project\2_WepProject\1_FrontEnd\2_javascript_Study\2_JQuery\7장\js" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.6_상위메뉴이동.html">
+  <component name="RunManager" selected="Application.Q1_1">
+    <configuration name="Q1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Pro_Study.s2operator.Q1_1" />
+      <module name="2_javascript_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Pro_Study.s2operator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="6_상위메뉴이동.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2_javascript_Study/2_javascript_Study/3_실전예제/자바스크립트챗봇_포로토타입/6_상위메뉴이동.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -76,19 +109,16 @@
     <configuration name="jq_event1_8_test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2_javascript_Study/2_javascript_Study/2_JQuery/7장/jq_event1_8_test.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="jq_selec3_1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2_javascript_Study/2_javascript_Study/2_JQuery/6장/jq_selec3_1.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="jq_selec3_4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2_javascript_Study/2_javascript_Study/2_JQuery/6장/jq_selec3_4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q1_1" />
         <item itemvalue="JavaScript Debug.6_상위메뉴이동.html" />
         <item itemvalue="JavaScript Debug.jq_event1_8_test.html" />
         <item itemvalue="JavaScript Debug.jq_event1_7_test.html" />
         <item itemvalue="JavaScript Debug.jq_selec3_4.html" />
-        <item itemvalue="JavaScript Debug.jq_selec3_1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -116,6 +146,17 @@
       <workItem from="1704969711681" duration="2355000" />
       <workItem from="1704972096966" duration="349000" />
       <workItem from="1705019833960" duration="4707000" />
+      <workItem from="1706495397402" duration="2498000" />
+      <workItem from="1706501130153" duration="1640000" />
+      <workItem from="1706574991127" duration="1890000" />
+      <workItem from="1706604002144" duration="614000" />
+      <workItem from="1706604655475" duration="1926000" />
+      <workItem from="1706661817754" duration="21000" />
+      <workItem from="1706665023938" duration="8759000" />
+      <workItem from="1706759604302" duration="26000" />
+      <workItem from="1706767476139" duration="41000" />
+      <workItem from="1706774081094" duration="1334000" />
+      <workItem from="1706834531203" duration="995000" />
     </task>
     <task id="LOCAL-00001" summary="핵힘듬">
       <option name="closed" value="true" />
