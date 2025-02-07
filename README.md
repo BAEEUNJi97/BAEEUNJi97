@@ -26,8 +26,8 @@
 ---
 
 ## 📌 Contact
-- 📧 Email: your.email@example.com
+- 📧 Email: eebae0331@gmail.com
 - 🔗 Portfolio: [포트폴리오 링크](https://example.com)
-- 💻 GitHub: [@yourgithub](https://github.com/yourgithub)
+- 💻 GitHub: [@BAEEUNJi97](https://github.com/BAEEUNJi97)
 
 ---
