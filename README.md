@@ -1,25 +1,5 @@
 # 🌟 [배은지] - Frontend Developer
 
-안녕하세요! 사용자 경험을 최우선으로 생각하는 프론트엔드 개발자 [배은지]입니다.  
-React, JavaScript를 기반으로 **직관적이고 반응형 웹 애플리케이션**을 만드는 데 집중하고 있습니다.  
-새로운 기술을 배우는 것을 즐기며, **클린 코드와 성능 최적화**에 관심이 많습니다.  
-
----
-
-## 🚀 Skills
-### Frontend
-- **Languages**: JavaScript (ES6+), TypeScript
-- **Frameworks & Libraries**: React, Next.js, Redux, Tailwind CSS
-- **UI & Styling**: CSS, SCSS, Styled-Components
-- **State Management**: Redux, Recoil, Zustand
-- **Testing**: Jest, React Testing Library
-- **Tools**: Webpack, Vite, ESLint, Prettier
-
-### Others
-- **Version Control**: Git, GitHub, GitLab
-- **Collaboration**: Jira, Confluence, Notion, Figma
-- **CI/CD**: GitHub Actions, Vercel
-
 ---
 
 ## 💼 Projects
