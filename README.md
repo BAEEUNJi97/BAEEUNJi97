@@ -28,6 +28,6 @@
 ## 📌 Contact
 - 📧 Email: eebae0331@gmail.com
 - 🔗 Portfolio: [포트폴리오 링크](https://example.com)
-- 💻 GitHub: [@BAEEUNJi97](https://github.com/BAEEUNJi97)
+- 💻 Study Log: [@BAEEUNJi](https://qormafuf.tistory.com/)
 
 ---
