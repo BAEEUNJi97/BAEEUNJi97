@@ -1,12 +1,12 @@
 # 🌟 배은지 (Eunji Bae)  
-Frontend Developer | 사용자 경험 중심의 웹을 만드는 중  
+Frontend Developer |
 
 ---
 
 ## 👩‍💻 About Me
 - **React, Next.js, TypeScript**를 중심으로 웹 서비스 개발을 배우고 있습니다.  
 - 프로젝트를 통해 **UI/UX 구현, 데이터 처리, 팀 협업**을 경험했습니다.  
-- 아직 부족한 부분이 많지만, 빠르게 배우고 성장하는 과정에 즐거움을 느낍니다.  
+- 아직 부족한 부분이 많지만, 빠르게 배우고 성장하겠습니다.  
 
 ---
 
@@ -23,35 +23,22 @@ Frontend Developer | 사용자 경험 중심의 웹을 만드는 중
 ---
 
 ## 📂 Projects
-- **[Trello-Lite](https://github.com/...)**  
-  Kanban 보드 앱 | dnd-kit, Supabase RLS, Next.js 15  
-- **[Flut](https://github.com/...)**  
+- **[플럿](https://github.com/BAEEUNJi97/flut)**  
   K-pop 플레이리스트 & 팬덤 보드 | YouTube/Last.fm API, Supabase Auth  
-- **[같이달램](https://github.com/...)**  
+- **[같이달램](https://github.com/BAEEUNJi97/gathr)**  
   모임 플랫폼 | 무한스크롤, 리뷰/필터, Supabase 연동  
-- **[Portfolio](https://github.com/...)**  
-  힘내자.ver (HTML/CSS) + Next.js.ver  
-- **[Liz Gym](https://github.com/...)**  
-  여성 전용 헬스장 블로그 | 네이버 기준 최적화 + K-pop 운동 콘텐츠  
+- **[가라게](https://github.com/JUNGSEUNGKIM/project3_frontPage)**  
+  '대한민국 구석구석' 분석 후 보완점 반영 · 카테고리 기반 탐색
+- **[올라 · 100대 명산 커뮤니티](https://github.com/JUNGSEUNGKIM/codelap_allola)**  
+  '대한민국 구석구석' 분석 후 보완점 반영 · 카테고리 기반 탐색
+
 
 ---
 
-## 🚀 Goals
-- 테스트 코드(Jest/RTL), SSR/CSR 최적화, Supabase 심화 학습 중  
-- 단기 목표: **인턴십을 통해 실무 경험 쌓기**  
-- 장기 목표: **사용자 중심의 프론트엔드 개발자**로 성장  
-
----
 
 ## 📌 Contact
 - 📧 Email: **eebae0331@gmail.com**  
-- 🌍 Portfolio: [포트폴리오 바로가기](https://example.com)  
-- ✍️ Blog: [Tistory](https://qormafuf.tistory.com/) | [Liz Gym](https://blog-link.com)  
-
----
-
-## 📊 GitHub Stats
-![Eunji's GitHub stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=radical)  
+- 🌍 Portfolio: [포트폴리오 바로가기]([https://example.com](https://my-portfolio-practice-seven.vercel.app/))  
+- ✍️ Blog: [Tistory](https://qormafuf.tistory.com/) 
 
 ---
