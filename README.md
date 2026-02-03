@@ -26,7 +26,7 @@ Frontend Developer |
 - **[플럿](https://github.com/BAEEUNJi97/flut)**  
   K-pop 플레이리스트 & 팬덤 보드 | YouTube/Last.fm API, Supabase Auth  
 - **[같이달램](https://github.com/BAEEUNJi97/gathr)**  
-  모임 플랫폼 | 무한스크롤, 리뷰/필터, Supabase 연동  
+  모임 플랫폼 | 무한스크롤, 리뷰/필터  
 - **[가라게](https://github.com/JUNGSEUNGKIM/project3_frontPage)**  
   '대한민국 구석구석' 분석 후 보완점 반영 · 카테고리 기반 탐색
 - **[올라 · 100대 명산 커뮤니티](https://github.com/JUNGSEUNGKIM/codelap_allola)**  
